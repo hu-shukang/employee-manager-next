@@ -1,7 +1,9 @@
+import UserForm from '@/components/user-form';
+
 export default function Home() {
   return (
     <main>
-      <div className="font-bold">hello world</div>
+      <UserForm />
     </main>
   );
 }

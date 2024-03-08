@@ -1,9 +1,8 @@
 declare namespace NodeJS {
   export interface ProcessEnv {
     REGION: string;
-    COGNITO_CLIENT_ID: string;
-    COGNITO_CLIENT_SECRET: string;
-    COGNITO_ISSUER: string;
+    GITHUB_CLIENT_ID: string;
+    GITHUB_CLIENT_SECRET: string;
     NEXTAUTH_URL: string;
     NEXTAUTH_SECRET: string;
   }
